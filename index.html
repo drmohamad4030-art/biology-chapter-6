@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="درسنامه تعاملی فصل ششم زیست‌شناسی یازدهم؛ تقسیم یاخته">
+<title>زیست‌شناسی یازدهم | تقسیم یاخته</title>
+<style>
+:root{--navy:#10283f;--blue:#176b87;--teal:#16a085;--mint:#e8f7f2;--ink:#203246;--muted:#68798a;--paper:#f4f8fb;--gold:#f3b84b;--line:#dce7ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Tahoma,"Segoe UI",sans-serif;line-height:2}
+.wrap{max-width:1080px;margin:auto;padding:0 18px}
+header{background:linear-gradient(125deg,#10283f,#176b87 68%,#16a085);color:white;padding:34px 20px 28px}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.tag{border:1px solid #ffffff55;border-radius:30px;padding:4px 12px;font-size:13px;background:#ffffff12}
+h1{font-size:clamp(27px,5vw,43px);line-height:1.5;margin:18px 0 5px}header p{color:#d9edf4;margin:0;max-width:760px}
+.hero-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}.hero-card{background:#ffffff14;border:1px solid #ffffff30;border-radius:16px;padding:12px 15px}.hero-card b{display:block;font-size:19px}
+nav{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 3px 14px #16344b0b}
+.navinner{display:flex;gap:8px;overflow:auto;padding:10px 18px;max-width:1080px;margin:auto}.navinner a{white-space:nowrap;text-decoration:none;color:var(--blue);padding:7px 12px;border-radius:10px;font-size:14px}.navinner a:hover{background:var(--mint)}
+main{padding:28px 0 55px}.section{background:white;border:1px solid var(--line);border-radius:20px;padding:23px;margin:0 0 20px;box-shadow:0 8px 24px #17344b08}
+h2{margin:0 0 15px;color:var(--navy);font-size:23px}h3{color:var(--blue);margin:20px 0 7px;font-size:18px}
+p{margin:8px 0}.lead{font-size:17px;color:#41576b}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.info{background:#f1f8fb;border:1px solid #dcecf2;border-radius:15px;padding:15px}
+.tip{background:#fff8e8;border-right:4px solid var(--gold);border-radius:12px;padding:13px 15px;margin:14px 0}
+.testtip{background:#effaf6;border-right:4px solid var(--teal);border-radius:12px;padding:13px 15px;margin:14px 0}
+ul{padding-right:22px;margin:7px 0}li{margin:5px 0}
+table{width:100%;border-collapse:collapse;margin:12px 0;border-radius:12px;overflow:hidden}th,td{padding:11px;border:1px solid var(--line);text-align:right;vertical-align:top}th{background:#eaf4f8;color:var(--navy)}
+.diagram{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;background:#f4f9fb;border-radius:16px;padding:18px;margin:14px 0}
+.node{background:white;border:1px solid #cfe0e8;border-radius:12px;padding:10px 14px;text-align:center;min-width:120px}.arrow{font-size:23px;color:var(--teal)}
+figure{margin:16px 0;text-align:center;background:#f7fafc;padding:14px;border-radius:15px;border:1px solid var(--line)}figure svg{max-width:100%;height:auto}figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+.quiz-q{border:1px solid var(--line);border-radius:15px;padding:15px;margin:13px 0}.quiz-q p{font-weight:bold;margin:0 0 9px}
+.option{display:block;padding:8px 10px;border-radius:9px;margin:5px 0;background:#f6f9fb;cursor:pointer}.option:hover{background:#eaf5f7}.option input{margin-left:8px;accent-color:var(--teal)}
+.feedback{font-size:14px;margin-top:8px;font-weight:bold}.correct{color:#12805e}.wrong{color:#b54735}
+button{border:0;border-radius:12px;background:var(--teal);color:white;padding:11px 18px;font:inherit;cursor:pointer;font-weight:bold;margin:4px}button:hover{filter:brightness(.95)}.secondary{background:#eaf3f7;color:var(--blue)}
+#result{font-weight:bold;margin:13px 0;padding:12px;border-radius:12px;background:#effaf6;display:none}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}
+.small{font-size:13px;color:var(--muted)}
+@media(max-width:700px){.hero-cards,.grid2{grid-template-columns:1fr}.section{padding:17px}.hero-card{padding:10px}table{font-size:13px}th,td{padding:7px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="topline"><span class="tag">زیست‌شناسی ۲ • پایه یازدهم</span><span class="tag">فصل ششم • درسنامه تعاملی</span></div>
+<h1>تقسیم یاخته؛ از رشتمان تا کاستمان</h1>
+<p>سفری آموزشی به دنیای فام‌تن‌ها و تقسیم یاخته؛ همراه با نمودار، نکته‌های مهم و آزمون خودسنجی.</p>
+<div class="hero-cards">
+<div class="hero-card"><b>۳ گفتار</b><span>فام‌تن، رشتمان، کاستمان و تولیدمثل جنسی</span></div>
+<div class="hero-card"><b>مرور مفهومی</b><span>تعریف‌ها، مراحل و مقایسه‌های مهم</span></div>
+<div class="hero-card"><b>آزمون پایانی</b><span>۱۰ پرسش چهارگزینه‌ای با بازخورد</span></div>
+</div></div></header>
+<nav><div class="navinner">
+<a href="#intro">شروع</a><a href="#chromosome">فام‌تن</a><a href="#mitosis">رشتمان</a><a href="#meiosis">کاستمان</a><a href="#compare">مقایسه</a><a href="#quiz">آزمون</a><a href="#sources">منابع</a>
+</div></nav>
+<main class="wrap">
+<section class="section" id="intro">
+<h2>نقشه راه فصل</h2>
+<p class="lead">تقسیم یاخته در رشد، ترمیم و تولید یاخته‌های جنسی نقش دارد. در این فصل با ساختار فام‌تن و دو نوع تقسیم هسته‌ای، یعنی رشتمان و کاستمان، آشنا می‌شویم.</p>
+<div class="diagram"><div class="node"><b>تقسیم یاخته</b></div><span class="arrow">←</span><div class="node"><b>رشتمان</b><br>معمولاً حفظ تعداد فام‌تن</div><span class="arrow">+</span><div class="node"><b>کاستمان</b><br>کاهش تعداد فام‌تن</div></div>
+<div class="tip"><b>هدف یادگیری:</b> بتوانیم تفاوت نتیجه رشتمان و کاستمان را توضیح دهیم و رویدادهای اصلی هر مرحله را به ترتیب بیان کنیم.</div>
+</section>
+<section class="section" id="chromosome">
+<h2>گفتار اول: فام‌تن</h2>
+<p>فام‌تن‌ها ساختارهایی درون هسته‌اند که ماده وراثتی یاخته را در خود جای می‌دهند. پیش از تقسیم یاخته، DNA همانندسازی می‌شود؛ بنابراین هر فام‌تن مضاعف‌شده از دو فامینک خواهری تشکیل می‌شود که در ناحیه سانترومر به هم متصل‌اند.</p>
+<div class="grid2">
+<div class="info"><h3>فامینک خواهری</h3><p>دو نسخه همانند از یک فام‌تن مضاعف‌شده‌اند که پس از همانندسازی DNA ایجاد می‌شوند.</p></div>
+<div class="info"><h3>سانترومر</h3><p>ناحیه‌ای است که فامینک‌های خواهری را به هم متصل نگه می‌دارد.</p></div>
+</div>
+<figure><svg viewBox="0 0 520 220" role="img" aria-label="طرح شماتیک فام‌تن مضاعف"><path d="M180 35 C220 75 220 145 180 185 M340 35 C300 75 300 145 340 185" fill="none" stroke="#176b87" stroke-width="17" stroke-linecap="round"/><path d="M180 35 C220 75 220 145 180 185 M340 35 C300 75 300 145 340 185" fill="none" stroke="#16a085" stroke-width="7" stroke-linecap="round"/><circle cx="260" cy="110" r="12" fill="#f3b84b" stroke="#10283f" stroke-width="2"/><path d="M273 110 L390 110" stroke="#10283f" stroke-width="2"/><text x="398" y="105" font-size="16" fill="#10283f">سانترومر</text><text x="260" y="213" text-anchor="middle" font-size="15" fill="#203246">طرح ساده فام‌تن مضاعف‌شده</text></svg><figcaption>شکل شماتیک آموزشی؛ دو فامینک خواهری در محل سانترومر به هم متصل‌اند.</figcaption></figure>
+<div class="testtip"><b>نکته:</b> همانندسازی DNA پیش از تقسیم انجام می‌شود؛ جدا شدن فامینک‌های خواهری در آنافاز رشتمان رخ می‌دهد.</div>
+</section>
+<section class="section" id="mitosis">
+<h2>گفتار دوم: رشتمان</h2>
+<p>رشتمان نوعی تقسیم هسته‌ای است که در آن، پس از همانندسازی DNA، فام‌تن‌ها به‌گونه‌ای تقسیم می‌شوند که در حالت معمول دو یاخته حاصل، مجموعه فام‌تنی مشابه یاخته مادر دارند. این تقسیم در رشد و جایگزینی یاخته‌ها اهمیت دارد.</p>
+<h3>مراحل اصلی رشتمان</h3>
+<table><thead><tr><th>مرحله</th><th>رویداد مهم</th></tr></thead><tbody>
+<tr><td>پروفاز</td><td>فام‌تن‌ها فشرده و قابل مشاهده می‌شوند و دوک تقسیم شکل می‌گیرد.</td></tr>
+<tr><td>پرومتافاز</td><td>پوشش هسته از هم می‌گسلد و رشته‌های دوک به فام‌تن‌ها متصل می‌شوند.</td></tr>
+<tr><td>متافاز</td><td>فام‌تن‌ها در صفحه استوایی یاخته ردیف می‌شوند.</td></tr>
+<tr><td>آنافاز</td><td>فامینک‌های خواهری از هم جدا و به سوی دو قطب یاخته حرکت می‌کنند.</td></tr>
+<tr><td>تلوفاز</td><td>در اطراف مجموعه‌های فام‌تنی، پوشش هسته دوباره تشکیل می‌شود.</td></tr>
+<tr><td>تقسیم سیتوپلاسم</td><td>سیتوپلاسم تقسیم می‌شود و دو یاخته جدا از هم شکل می‌گیرند.</td></tr>
+</tbody></table>
+<figure><svg viewBox="0 0 720 170" role="img" aria-label="ترتیب مراحل رشتمان"><g font-size="14" text-anchor="middle" fill="#203246"><g transform="translate(65 75)"><circle r="42" fill="#e8f7f2" stroke="#16a085" stroke-width="2"/><path d="M-12 -20L12 20M12 -20L-12 20" stroke="#176b87" stroke-width="6" stroke-linecap="round"/><text y="62">پروفاز</text></g><g transform="translate(210 75)"><circle r="42" fill="#e8f7f2" stroke="#16a085" stroke-width="2"/><path d="M-22 -20L22 20M22 -20L-22 20" stroke="#176b87" stroke-width="5"/><text y="62">متافاز</text></g><g transform="translate(355 75)"><circle r="42" fill="#e8f7f2" stroke="#16a085" stroke-width="2"/><path d="M-22 -18L-8 -5M22 -18L8 -5M-22 18L-8 5M22 18L8 5" stroke="#176b87" stroke-width="6" stroke-linecap="round"/><text y="62">آنافاز</text></g><g transform="translate(500 75)"><circle r="42" fill="#e8f7f2" stroke="#16a085" stroke-width="2"/><circle cx="-16" cy="0" r="13" fill="none" stroke="#176b87" stroke-width="3"/><circle cx="16" cy="0" r="13" fill="none" stroke="#176b87" stroke-width="3"/><text y="62">تلوفاز</text></g><g transform="translate(645 75)"><circle cx="-12" cy="0" r="31" fill="#e8f7f2" stroke="#16a085" stroke-width="2"/><circle cx="12" cy="0" r="31" fill="#e8f7f2" stroke="#16a085" stroke-width="2"/><text y="62">دو یاخته</text></g></g></svg><figcaption>نمای ساده و شماتیک از توالی رویدادهای رشتمان؛ برای جزئیات به شکل کتاب درسی مراجعه کنید.</figcaption></figure>
+<div class="tip"><b>یادآوری:</b> در آنافاز رشتمان، فامینک‌های خواهری جدا می‌شوند؛ این نکته را با آنافاز یک کاستمان اشتباه نگیرید.</div>
+</section>
+<section class="section" id="meiosis">
+<h2>گفتار سوم: کاستمان و تولیدمثل جنسی</h2>
+<p>کاستمان نوعی تقسیم کاهشی است که در ارتباط با تولیدمثل جنسی انجام می‌شود. در تولیدمثل جنسی، دو یاخته جنسی با هم ترکیب می‌شوند؛ کاستمان تعداد فام‌تن‌ها را کاهش می‌دهد تا پس از لقاح، تعداد فام‌تن گونه در نسل بعد حفظ شود.</p>
+<h3>کاستمان یک</h3>
+<ul><li><b>پروفاز یک:</b> فام‌تن‌های همتا در کنار هم قرار می‌گیرند و ساختار چهارتایه تشکیل می‌شود.</li><li><b>متافاز یک:</b> چهارتایه‌ها در استوای یاخته روی رشته‌های دوک قرار می‌گیرند.</li><li><b>آنافاز یک:</b> فام‌تن‌های همتا از هم جدا و به سوی قطب‌ها حرکت می‌کنند.</li><li><b>تلوفاز یک:</b> در پایان این تقسیم، معمولاً دو یاخته ایجاد می‌شود.</li></ul>
+<h3>کاستمان دو</h3>
+<p>وقایع کاستمان دو بسیار شبیه رشتمان است. در این مرحله فامینک‌های خواهری از هم جدا می‌شوند و در پایان، از دو یاخته مرحله قبل، چهار یاخته با نصف تعداد فام‌تن یاخته مادر اولیه حاصل می‌شود.</p>
+<figure><svg viewBox="0 0 620 210" role="img" aria-label="خلاصه نتیجه کاستمان"><g fill="#e8f7f2" stroke="#16a085" stroke-width="2"><circle cx="310" cy="38" r="29"/><circle cx="220" cy="112" r="25"/><circle cx="400" cy="112" r="25"/><circle cx="130" cy="183" r="19"/><circle cx="220" cy="183" r="19"/><circle cx="400" cy="183" r="19"/><circle cx="490" cy="183" r="19"/></g><g stroke="#176b87" stroke-width="2" fill="none"><path d="M290 62L235 89M330 62L385 89M220 138L130 163M220 138L220 163M400 138L400 163M400 138L490 163"/></g><g font-size="13" text-anchor="middle" fill="#203246"><text x="310" y="43">۲n</text><text x="220" y="117">n</text><text x="400" y="117">n</text><text x="130" y="188">n</text><text x="220" y="188">n</text><text x="400" y="188">n</text><text x="490" y="188">n</text></g></svg><figcaption>طرح ساده نتیجه دو تقسیم پیاپی کاستمان: از یک یاخته ۲n، چهار یاخته n حاصل می‌شود.</figcaption></figure>
+<div class="testtip"><b>نکته مهم:</b> در آنافاز یک، فام‌تن‌های همتا از هم جدا می‌شوند؛ در آنافاز دو، فامینک‌های خواهری جدا می‌شوند.</div>
+</section>
+<section class="section" id="compare">
+<h2>جدول مقایسه رشتمان و کاستمان</h2>
+<table><thead><tr><th>ویژگی</th><th>رشتمان</th><th>کاستمان</th></tr></thead><tbody>
+<tr><td>تعداد تقسیم هسته‌ای</td><td>یک بار</td><td>دو بار پیاپی</td></tr>
+<tr><td>تعداد یاخته‌های حاصل</td><td>معمولاً دو</td><td>چهار</td></tr>
+<tr><td>تعداد فام‌تن یاخته‌های حاصل</td><td>معمولاً برابر یاخته مادر</td><td>نصف یاخته مادر اولیه</td></tr>
+<tr><td>جدایی در آنافاز نخست</td><td>فامینک‌های خواهری</td><td>فام‌تن‌های همتا</td></tr>
+<tr><td>نقش مهم</td><td>رشد و جایگزینی یاخته‌ها</td><td>تشکیل یاخته‌های جنسی در تولیدمثل جنسی</td></tr>
+</tbody></table>
+</section>
+<section class="section" id="quiz">
+<h2>آزمون چهارگزینه‌ای</h2><p>گزینه درست را انتخاب کن؛ بعد از پاسخ، بازخورد همان پرسش نمایش داده می‌شود.</p>
+<div id="questions"></div><button onclick="gradeQuiz()">محاسبه نتیجه آزمون</button><button class="secondary" onclick="resetQuiz()">شروع دوباره</button><div id="result"></div>
+</section>
+<section class="section" id="sources">
+<h2>منابع و درباره این وب‌سایت</h2>
+<p>این وب‌سایت یک درسنامه آموزشی و خلاصه‌سازی‌شده بر پایه فصل ششم کتاب «زیست‌شناسی (۲) پایه یازدهم» با موضوع تقسیم یاخته است. برای مطالعه کامل توضیحات، فعالیت‌ها و شکل‌های کتاب، به کتاب درسی مراجعه کنید.</p>
+<p><b>نام طراح و تهیه‌کننده وب‌سایت: محمد اسکندری</b></p>
+<p class="small">پروژه آموزشی دانش‌آموزی • نسخه ۱ • طراحی واکنش‌گرا برای موبایل و رایانه</p>
+</section>
+</main>
+<footer>طراحی و تهیه: محمد اسکندری • زیست‌شناسی یازدهم • فصل ششم: تقسیم یاخته</footer>
+<script>
+const qs=[
+{q:"در فام‌تن مضاعف‌شده، دو فامینک خواهری در کدام ناحیه به هم متصل‌اند؟",o:["غشای هسته","سانترومر","سیتوپلاسم","ریبوزوم"],a:1,e:"فامینک‌های خواهری در ناحیه سانترومر به هم متصل‌اند."},
+{q:"در کدام مرحله رشتمان، فام‌تن‌ها در صفحه استوایی قرار می‌گیرند؟",o:["پروفاز","متافاز","آنافاز","تلوفاز"],a:1,e:"در متافاز فام‌تن‌ها در صفحه استوایی یاخته ردیف می‌شوند."},
+{q:"در آنافاز رشتمان چه ساختارهایی از هم جدا می‌شوند؟",o:["فام‌تن‌های همتا","فامینک‌های خواهری","دو هسته","یاخته‌های جنسی"],a:1,e:"در آنافاز رشتمان فامینک‌های خواهری از هم جدا می‌شوند."},
+{q:"کاستمان از چند تقسیم هسته‌ای پیاپی تشکیل شده است؟",o:["یک","دو","سه","چهار"],a:1,e:"کاستمان شامل کاستمان یک و کاستمان دو است."},
+{q:"در آنافاز یک کاستمان چه چیزی از هم جدا می‌شود؟",o:["فام‌تن‌های همتا","فامینک‌های خواهری","غشاهای یاخته","هسته‌ها"],a:0,e:"در آنافاز یک، فام‌تن‌های همتا از هم جدا می‌شوند."},
+{q:"در پروفاز یک کاستمان چه ساختاری تشکیل می‌شود؟",o:["چهارتایه","دوک کامل در سیتوپلاسم","دو یاخته دختر","صفحه یاخته‌ای"],a:0,e:"فام‌تن‌های همتا در کنار هم قرار می‌گیرند و چهارتایه تشکیل می‌شود."},
+{q:"در پایان کاستمان از یک یاخته ۲n معمولاً چند یاخته n حاصل می‌شود؟",o:["یک","دو","سه","چهار"],a:3,e:"در پایان کاستمان چهار یاخته با نصف تعداد فام‌تن یاخته مادر اولیه حاصل می‌شود."},
+{q:"کدام تقسیم با تشکیل یاخته‌های جنسی ارتباط دارد؟",o:["رشتمان","کاستمان","تقسیم سیتوپلاسم به تنهایی","هیچ‌کدام"],a:1,e:"یاخته‌های مؤثر در تولیدمثل جنسی با کاستمان ایجاد می‌شوند."},
+{q:"در کاستمان دو، جدایی فامینک‌های خواهری شبیه کدام تقسیم است؟",o:["رشتمان","لقاح","همانندسازی DNA","کاستمان یک"],a:0,e:"وقایع کاستمان دو از نظر جدایی فامینک‌های خواهری بسیار شبیه رشتمان است."},
+{q:"هدف مهم کاهش تعداد فام‌تن‌ها در کاستمان چیست؟",o:["دو برابر شدن تعداد فام‌تن‌ها در گامت","کمک به حفظ تعداد فام‌تن گونه پس از لقاح","توقف رشد یاخته","حذف هسته"],a:1,e:"کاهش تعداد فام‌تن‌ها در یاخته‌های جنسی کمک می‌کند پس از لقاح تعداد فام‌تن گونه حفظ شود."}
+];
+const host=document.getElementById('questions');
+function render(){host.innerHTML=qs.map((q,i)=>`<div class="quiz-q"><p>${i+1}. ${q.q}</p>${q.o.map((v,j)=>`<label class="option"><input type="radio" name="q${i}" value="${j}" onchange="feedback(${i},${j})">${v}</label>`).join('')}<div class="feedback" id="f${i}"></div></div>`).join('');}
+function feedback(i,j){const f=document.getElementById('f'+i);if(j===qs[i].a){f.className='feedback correct';f.textContent='درست است. '+qs[i].e;}else{f.className='feedback wrong';f.textContent='این گزینه درست نیست؛ دوباره به مفهوم پرسش فکر کن.';}}
+function gradeQuiz(){let score=0,answered=0;qs.forEach((q,i)=>{const v=document.querySelector(`input[name="q${i}"]:checked`);if(v){answered++;if(+v.value===q.a)score++;}});const r=document.getElementById('result');r.style.display='block';r.textContent=`نتیجه: ${score} پاسخ درست از ${qs.length} پرسش | پاسخ داده‌شده: ${answered} از ${qs.length}`;}
+function resetQuiz(){render();const r=document.getElementById('result');r.style.display='none';r.textContent='';}
+render();
+</script>
+</body></html>
